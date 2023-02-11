@@ -3,7 +3,6 @@ use reqwest::header::HeaderMap;
 #[cfg(test)]
 mod tests {
     
-
     fn setup_client() -> reqwest::Client {
         let mut headers = HeaderMap::new();
         headers.insert("ACCEPT", "application/json".parse().unwrap());
